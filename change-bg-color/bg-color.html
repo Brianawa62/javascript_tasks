@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click me</title>
+    <link rel="stylesheet" type="text/css" href="bg-color.css">
+</head>
+<body>
+    <button>Click me</button>
+    <script type="text/javascript"> 
+        var color = ["#222f3e","#dd260e", "#0ae196c","#0ae127","#0a7cel","#a60ae1"];
+        var i = 0;
+        document.querySelector("button").addEventListener("click", function() {
+            i = i < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color[i];
+        });
+    </script>
+
+    
+</body>
+</html>
