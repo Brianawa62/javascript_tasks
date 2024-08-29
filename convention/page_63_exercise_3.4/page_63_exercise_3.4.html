@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 63</title>
+</head>
+<body>
+    <script>
+       const myCar = {
+        Make: "Toyota",
+        Model: "Camry",
+        year: "2020",
+        Color: "White",
+        isNew: "False",
+        fuelType: "Petrol"
+       }
+       // create a variable that can hold the string value color
+       let colorproperty = 'Color'
+
+       //using the varialble within the square bracket notation to sign a new value to the color property
+       myCar[colorproperty] = 'white';
+       
+       //use that same variable and sign a new property value to it
+       // as forsale using the bracket notation againto sign a new value to the forsale property
+       myCar['forSale'] = 'true';
+
+       //output make and model into the console
+      console.log(myCar.Make);
+      console.log(myCar.Model);
+      
+      //Output the value of forSale into the console
+      console.log (myCar['forSale']);
+    </script>
+</body>
+</html>
